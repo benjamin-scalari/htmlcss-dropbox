@@ -20,12 +20,16 @@
   font-size: 15px;
   text-decoration: none;
   border: 0;
-  padding: 5px 15px;
+  padding: 7px 15px;
 }
 
 .button-color-1{
   background-color: rgb(0, 97, 255);
   color: white;
+}
+
+.subscription-button{
+  width: 92%;
 }
 
 /* navbar */
@@ -105,3 +109,88 @@
   position: absolute;
   top: 550px;
 }
+/* /jumbotron */
+
+/* main */
+.main-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-container h2{
+  font-size: 30px;
+  padding-top: 200px;
+}
+
+.billing{
+  padding-top: 50px;
+}
+
+.billing label{
+  padding-right: 15px;
+}
+
+/* offerte */
+.subscription-container{
+  padding-top: 25px;
+}
+
+.subscription-category{
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+
+.subscription-plan{
+  padding-left: 25px;
+  min-height: 1000px;
+}
+
+.subscription-plan h3{
+  padding: 75px 0 15px;
+  font-size: 25px;
+}
+
+.subscription-plan h4{
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.subscription-category, .subscription-plan{
+  width: 25%;
+  border: 2px solid rgb(208, 208, 211);
+}
+
+#price{
+  font-size: 20px;
+}
+ 
+.sub-info{
+  color: rgb(99, 115, 129);
+}
+
+.users{
+  padding-top: 50px;
+}
+
+.info{
+  padding-bottom: 15px;
+}
+
+.buy{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.line{
+  width: 15%;
+  border-bottom: 2px solid rgb(208, 208, 211);
+}
+
+.subscription-plan ul li{
+  list-style: none;
+  padding-top: 25px
+}
+/* /offerte */
+
+/* /main */
